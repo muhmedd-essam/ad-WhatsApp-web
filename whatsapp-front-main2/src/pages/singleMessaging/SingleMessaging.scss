@@ -1,0 +1,71 @@
+.singlemessaging-section {
+  .singlemessaging {
+    padding: 13px 102px 13px 102px;
+    color: rgb(71, 55, 134);
+    border: 3px solid rgb(71, 55, 134);
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+
+  svg {
+    width: 200px;
+    height: 200px;
+    padding: 1rem;
+  }
+
+  svg path {
+    fill: rgba(50, 38, 98, 1);
+    fill-opacity: 1;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column; // Stack sections vertically
+  gap: 20px; // Space between sections
+
+  .form-section {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+    padding-bottom: 20px;
+
+    h3 {
+      background-color: rgba(50, 38, 98, 1);
+      color: #fff;
+      padding: 20px;
+      font-size: 18px;
+      margin-bottom: 20px; // Remove default margin
+      border-radius: 15px 15px 0 0;
+    }
+  }
+
+  .form-section {
+    width: 100%;
+    margin-bottom: 20px;
+
+    input {
+      width: 100%; /* Make input fields take full width */
+      background-color: rgba(230, 230, 230, 1);
+      text-align: left; /* Ensure the text remains left-aligned when typing */
+      border-radius: 5px;
+
+      &::placeholder {
+        text-align: center; /* Center-align placeholder text */
+        color: rgba(50, 38, 98, 1); /* Placeholder text color */
+      }
+    }
+  }
+
+  .btn {
+    margin-top: 20px;
+    background-color: rgba(50, 38, 98, 1);
+    padding: 10px;
+    color: #fff; /* Ensure button text is white */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Add border radius for smooth corners */
+    cursor: pointer; /* Add pointer cursor on hover */
+    width: fit-content;
+  }
+}

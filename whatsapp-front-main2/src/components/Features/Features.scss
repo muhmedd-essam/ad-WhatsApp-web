@@ -1,0 +1,50 @@
+.features {
+  h2 {
+    font-size: 20px;
+    color: rgb(250, 250, 250);
+    /* From https://css.glass */
+    /* From https://css.glass */
+    background: rgba(48, 36, 95, 0.7);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+  }
+
+  .features-content {
+    background: rgba(48, 36, 95, 0.6);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    padding: 2rem;
+
+    svg {
+      width: 40px;
+      margin-bottom: 1rem;
+
+      path {
+        fill: #fff;
+      }
+    }
+  }
+
+  .features-content h3 {
+    font-size: 1rem;
+    color: rgba(230, 230, 230, 1);
+    filter: drop-shadow(0 4px 4px 0 rgba(0, 0, 0, 0.25));
+  }
+
+  .row div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+  }
+}

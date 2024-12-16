@@ -1,0 +1,67 @@
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  .container {
+    min-height: 900px;
+  }
+}
+
+.p-3 {
+  padding: 1rem;
+}
+
+.content-transition {
+  transition: margin-right 0.3s ease-in-out;
+}
+
+.content-shifted {
+  margin-right: 338px;
+}
+
+.aside-transition {
+  position: absolute;
+  top: 0;
+  right: -338px;
+  transition: right 0.3s ease-in-out;
+  z-index: 20000;
+}
+
+.aside-visible {
+  right: 0;
+}

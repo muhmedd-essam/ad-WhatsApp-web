@@ -1,0 +1,39 @@
+.subscription-details {
+  margin-top: 4rem;
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 2rem; // Add padding for better spacing
+  transition: transform 0.2s, box-shadow 0.2s; // Smooth transition for hover effect
+
+  &:hover {
+    transform: scale(1.02); // Scale effect on hover
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px; // Darker shadow on hover
+  }
+
+  .subscription-title {
+    background-color: rgba(50, 38, 98, 1);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px; // Rounded corners for the title
+    font-size: 1.5rem; // Larger font size for the title
+    font-weight: bold; // Bold text for emphasis
+  }
+
+  // Additional styles for subscription details
+  p {
+    font-size: 1.2rem; // Slightly larger font for text
+    color: #333; // Darker text color for readability
+    margin: 10px 0; // Margin for spacing between paragraphs
+  }
+
+  h2 {
+    font-size: 1.5rem; // Size for subheading
+    color: #4a4a4a; // Darker color for the subheading
+    text-align: center; // Center align the heading
+    margin: 20px 0; // Margin for spacing around the heading
+  }
+}

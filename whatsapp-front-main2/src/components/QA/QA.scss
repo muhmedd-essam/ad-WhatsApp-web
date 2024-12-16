@@ -1,0 +1,32 @@
+.faq-section {
+  direction: rtl !important;
+  .btn {
+    padding: 13px 102px 13px 102px;
+    color: rgb(71, 55, 134);
+    border: 3px solid rgb(71, 55, 134);
+    border-radius: 20px;
+    margin: 0 auto;
+
+    margin-top: 2rem;
+  }
+}
+.accordion-button::after {
+  margin-right: auto !important;
+  margin-left: 0 !important;
+}
+
+.accordion-body {
+  background-color: rgba(217, 217, 217, 1);
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #fff;
+}
+.accordion{
+  box-shadow: 0 0 30px 5px rgb(185, 183, 183);
+
+}

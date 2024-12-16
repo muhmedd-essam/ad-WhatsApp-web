@@ -1,0 +1,20 @@
+.partners {
+  container {
+    overflow: hidden;
+  }
+
+  .slick-slide {
+    padding: 0 15px; // Adjusts padding inside each slide
+  }
+
+  .slick-list {
+    margin: 0 -15px; // Matches the negative margin to the padding for proper alignment
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+}

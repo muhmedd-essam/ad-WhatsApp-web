@@ -1,0 +1,76 @@
+footer {
+  background-color: rgba(50, 38, 98, 1);
+  color: #fff;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden; /* Make sure content doesn't overflow */
+  bottom: 0px;
+  padding: 2rem;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Adjust based on the wave's height */
+    background: url("../../assets/wave-bg.svg") no-repeat top center;
+    background-size: cover;
+    z-index: 1; /* Behind the content */
+  }
+
+  .container {
+    position: relative; /* Make sure container is positioned relative to the footer */
+    z-index: 4; /* Higher than the wave background */
+  }
+
+  ul {
+    list-style: none;
+    padding: 0 !important;
+
+    li {
+      margin-bottom: 1rem;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        transition: all 0.5s ease-in-out;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .social-icons {
+    margin-top: 1rem;
+
+    ul {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      align-items: center;
+
+      li {
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        transition: all 0.5s ease-in-out;
+
+        &:hover {
+          cursor: pointer;
+          opacity: 0.8;
+        }
+      }
+    }
+
+    .social-icons svg {
+      width: 25px !important;
+    }
+  }
+}

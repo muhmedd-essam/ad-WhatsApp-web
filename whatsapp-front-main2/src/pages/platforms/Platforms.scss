@@ -1,0 +1,38 @@
+.linked-platforms {
+  .platform {
+    padding: 13px 102px 13px 102px;
+    color: rgb(71, 55, 134);
+    border: 3px solid rgb(71, 55, 134);
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+
+  .account-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(71, 55, 134);
+    border-radius: 20px;
+    padding: 1.7rem;
+    margin-top: 2rem;
+    flex-direction: column;
+    width: fit-content;
+
+    h3 {
+      color: rgb(71, 55, 134);
+      margin-bottom: 2rem;
+    }
+
+    button {
+      padding: 10px 25px 10px 25px;
+    }
+  }
+  svg {
+    width: 200px;
+    height: 200px;
+  }
+  svg path {
+    fill: rgb(71, 55, 134);
+  }
+}

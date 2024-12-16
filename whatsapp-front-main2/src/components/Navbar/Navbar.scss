@@ -1,0 +1,19 @@
+.bg-purple {
+  background-color: rgba(50, 38, 98, 1);
+  color: #fff;
+}
+
+.dropdown-toggle::after {
+  font-size: 19px;
+  margin-right: 10px;
+}
+
+.dropdown-toggle {
+  padding-right: 0.5rem;
+}
+
+@media screen and (max-width: 992px) {
+  .dropdown-toggle {
+    padding-right: 0rem;
+  }
+}

@@ -1,0 +1,93 @@
+.upload-section {
+  .upload {
+    padding: 13px 102px 13px 102px;
+    color: rgb(71, 55, 134);
+    border: 3px solid rgb(71, 55, 134);
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+}
+
+.upload-form {
+  form {
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    input {
+      width: 100%; /* Make input fields take full width */
+      background-color: rgba(230, 230, 230, 1);
+      padding-left: 50%; /* Push the placeholder text toward the center */
+      text-align: left; /* Ensure the text remains left-aligned when typing */
+      border-radius: 5px;
+      padding: 10px;
+      &::placeholder {
+        text-align: center; /* Center-align placeholder text */
+        /* Adjust placeholder to center */
+        color: rgba(50, 38, 98, 1); /* Optional: Placeholder text color */
+      }
+    }
+
+    .btn {
+      margin-top: 20px;
+      background-color: rgba(50, 38, 98, 1);
+      padding: 10px;
+    }
+
+    h3 {
+      background-color: rgba(50, 38, 98, 1);
+      color: #fff;
+      padding: 20px;
+      font-size: 18px;
+    }
+
+    content {
+      padding: 20px;
+    }
+  }
+}
+
+.upload-label-custom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1rem;
+  gap: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.upload-text {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.icon-circle {
+  width: 100px;
+  height: 100px;
+  background-color: #f1f1f1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.upload-label-custom:hover .icon-circle {
+  background-color: #ddd;
+}
+
+.upload-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.d-none {
+  display: none;
+}

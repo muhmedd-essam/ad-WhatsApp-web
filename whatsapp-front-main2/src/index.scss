@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  // box-sizing: border-box;
+  font-family: "Tajawal", sans-serif;
+  background: url("../src/assets/wave.svg") no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(3px);
+  font-size: 16px;
+}
+
+body[dir="ltr"] {
+  direction: ltr;
+  text-align: right;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.margin-big {
+  margin-block: 60px;
+}
+
+.container {
+  max-width: 1140px !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #322662 !important;
+}
+
+h3 {
+  color: #fff !important;
+}
+@media(max-width:470px){
+  .contact{
+    padding: 13px 50px 13px 50px !important;
+  }
+}

@@ -1,0 +1,52 @@
+.form-header{
+    border-radius: 1rem 1rem 0 0;
+    padding: 2vh ;
+    background-color: rgb(50, 38, 98);
+}
+.form-section{
+    border-radius: 0 0 1rem 1rem;
+    button{
+        background-color:rgb(50, 38, 98) ;
+    }
+}
+.section-header{
+    background-color: rgb(50, 38, 98);
+    border-radius: 1rem 1rem 0 0;
+}
+.form-layout{
+    width: 50%;
+    
+}
+.actionBtn{
+    border: none;
+    background-color: transparent;
+    margin-right: 1vh;
+}
+
+table{
+    width: 100%;
+}
+thead {
+    border-bottom: 2px solid black;
+}
+tbody tr{
+    border-bottom: 0.5px solid rgba(134, 130, 130, 0.673);
+    
+}
+tbody td{
+    padding: 2vh 0;
+    max-width: 10%;
+    
+    text-wrap: wrap;
+    overflow: hidden;
+
+}
+
+@media(max-width:1000px){
+    .form-layout{
+        width: 100%;
+    }
+    tbody td{
+      font-size: 15px;
+    }
+}

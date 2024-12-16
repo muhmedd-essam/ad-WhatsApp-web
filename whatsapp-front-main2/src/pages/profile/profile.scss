@@ -1,0 +1,90 @@
+.profile-section {
+  form {
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    .form-group {
+      width: 100%;
+      margin-bottom: 20px;
+
+      input {
+        width: 100%; /* Make input fields take full width */
+        background-color: rgba(230, 230, 230, 1);
+        padding-left: 50%; /* Push the placeholder text toward the center */
+        text-align: left; /* Ensure the text remains left-aligned when typing */
+        border-radius: 5px;
+        padding: 10px;
+        &::placeholder {
+          text-align: center; /* Center-align placeholder text */
+          /* Adjust placeholder to center */
+          color: rgba(50, 38, 98, 1); /* Optional: Placeholder text color */
+        }
+      }
+    }
+
+    .btn {
+      margin-top: 20px;
+      background-color: rgba(50, 38, 98, 1);
+      padding: 10px;
+    }
+
+    h3 {
+      background-color: rgba(50, 38, 98, 1);
+      color: #fff;
+      padding: 20px;
+      font-size: 18px;
+    }
+
+    content {
+      padding: 20px;
+    }
+  }
+
+  .reminder {
+    margin-top: 4rem;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    .reminder__title {
+      background-color: rgba(50, 38, 98, 1);
+      color: white;
+      padding: 15px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .reminder__item {
+      background-color: #f8f9fa; /* Light gray background */
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 20px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      margin: 2rem;
+
+      h4 {
+        margin-bottom: 10px;
+        font-size: 20px;
+        color: #322662; /* Match title color */
+      }
+
+      p {
+        color: #322662;
+        font-size: 20px;
+      }
+
+      svg {
+        width: 40px;
+        height: 40px;
+        fill: #322662; /* Same as title color */
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

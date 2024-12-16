@@ -1,0 +1,54 @@
+/* Center the QR code card and style it */
+.qr-code-container {
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* QR image styling */
+.qr-image {
+  width: 300px;
+  height: 300px;
+  border: 2px solid #473786;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+/* Add hover effect to QR code */
+.qr-image:hover {
+  transform: scale(1.05);
+}
+
+/* Loading spinner styling */
+.loading-spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Scan icon styling */
+.scan-icon {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Animate scan icon on hover */
+.scan-icon:hover {
+  transform: rotate(360deg);
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .qr-code-container {
+    max-width: 100%;
+  }
+
+  .qr-image {
+    width: 250px;
+    height: 250px;
+  }
+}

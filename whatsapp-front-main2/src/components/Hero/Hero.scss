@@ -1,0 +1,111 @@
+.hero-section {
+  position: relative;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(50, 38, 98, 1);
+  clip-path: none;
+  z-index: -1;
+}
+
+.hero-text {
+  position: relative;
+  z-index: 1; /* Ensure content is above the background */
+  text-align: start;
+}
+
+.hero-text .first {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.hero-text h2 {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+
+.hero-text .second {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.hero-text button {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px 25px;
+  border-radius: 15px;
+  transition: all ease-in-out 0.5s;
+}
+
+.hero-text .primary-btn {
+  background-color: rgb(255, 255, 255);
+  color: #000;
+  margin-left: 20px;
+}
+
+.hero-text button.secondary-btn {
+  color: #fff;
+}
+
+.hero-text .primary-btn:hover {
+  background-color: transparent;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.hero-img {
+  border-radius: 50%;
+  width: 200px; /* Default size for smaller screens */
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  z-index: 1; /* Ensure image is above background */
+}
+
+.hero-img img {
+  max-width: 100%; /* Allow image to resize within the circle */
+  height: auto;
+}
+
+/* Responsive adjustments */
+@media (min-width: 576px) {
+  .hero-img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-img {
+    width: 450px;
+    height: 450px;
+  }
+
+  .hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(50, 38, 98, 1);
+    clip-path: polygon(71% 0, 100% 0%, 100% 100%, 71% 100%, 39% 46%);
+    z-index: -1;
+  }
+}
